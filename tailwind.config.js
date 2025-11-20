@@ -6,6 +6,14 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'brand-red': '#FF0000',
+        'brand-orange': '#FF6A00',
+        'brand-yellow': '#FFB200',
+        'brand-green': '#8CBF2F',
+        'brand-black': '#000000',
+        'brand-white': '#FFFFFF',
+      },
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
         geist: ['Geist', 'system-ui', 'sans-serif'],
@@ -13,6 +21,16 @@ export default {
         mona: ['Mona Sans', 'system-ui', 'sans-serif'],
         'ibm-plex': ['IBM Plex Sans', 'system-ui', 'sans-serif'],
         manrope: ['Manrope', 'system-ui', 'sans-serif'],
+      },
+      spacing: {
+        '15': '3.75rem',
+        '18': '4.5rem',
+        '22': '5.5rem',
+      },
+      borderRadius: {
+        'xl': '1rem',
+        '2xl': '1.25rem',
+        '3xl': '1.5rem',
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
